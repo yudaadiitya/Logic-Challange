@@ -1,16 +1,29 @@
-function romawi(n){
- var desimal = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
-  desimal.reverse();
- var konversiRomawi = ['I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M'];
-  konversiRomawi.reverse();
- var hasil ='';
- for(i = 0; i < desimal.length; i++) {
-     while(desimal[i] <= n) {
-         hasil += konversiRomawi[i];
-         n -= desimal[i];
-     }
- } 
- return hasil;
+function romawi(n) {
+    let number = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+    let romawi = [
+        'M',
+        'CM',
+        'D',
+        'CD',
+        'C',
+        'XC',
+        'L',
+        'XL',
+        'X',
+        'IX',
+        'V',
+        'IV',
+        'I'
+    ];
+    let result = ''
+
+    for (let i = 0; i < number.length; i++) {
+        while (number[i] <= n) {
+            result += romawi[i];
+            n -= number[i];
+        }
+    }
+    return result;
 }
 
 console.log("Script Testing untuk Konversi Romawi\n");
