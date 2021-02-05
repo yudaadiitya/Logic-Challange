@@ -1,0 +1,42 @@
+[
+   {
+      "activites": "saya mau minum",
+      "complete": true,
+      "tags": [
+         "minum",
+         "jus",
+         "minum",
+         "kopi"
+      ]
+   },
+   {
+      "activites": "saya mau makan",
+      "complete": false,
+      "tags": []
+   },
+   {
+      "activites": "saya mau mandi",
+      "complete": true,
+      "tags": []
+   },
+   {
+      "activites": "saya mau pergi ke pasar",
+      "complete": true,
+      "tags": []
+   },
+   {
+      "activites": "saya mau pergi ke kampus",
+      "complete": false,
+      "tags": []
+   },
+   {
+      "activites": "Saya mau ke pasar",
+      "complete": false,
+      "tags": []
+   },
+   {
+      "activites": "saya mau pergi ke pasar",
+      "complete": false,
+      "tags": []
+   }
+]
