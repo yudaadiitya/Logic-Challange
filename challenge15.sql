@@ -1,4 +1,4 @@
--- SQLite
+- SQLite
 ALTER TABLE mahasiswa ADD COLUMN usia INT;
 UPDATE mahasiswa SET usia = 22 WHERE nim = 110201;
 UPDATE mahasiswa SET usia = 19 WHERE nim = 110202;
