@@ -1,8 +1,8 @@
 function indexPrime(param1) {
-    let result = [];
+    let hasil = [];
     let number = 2;
 
-    while (result.length < param1) {
+    while (hasil.length < param1) {
         let isPrime = true;
 
         for (let i = 2; i <= Math.sqrt(number); i++) {
@@ -13,13 +13,13 @@ function indexPrime(param1) {
         }
 
         if (isPrime) {
-            result.push(number);
+            hasil.push(number);
         }
 
         number++;
     }
 
-    return result[result.length - 1];
+    return hasil[hasil.length - 1];
 }
 
 console.log(indexPrime(4));
