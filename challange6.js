@@ -1,16 +1,16 @@
 function stringManipulation(word) {
 	let vocal = 'aiueoAIUEO';
-	let a = false;
+	let isVocal = false;
 	for (let i = 0; i < vocal.length; i++) {
-	  if (word[0] === vocal[i]) {
-		a = true;
-	  }
-	} if (a) {
-	  return word;
+		if (word[0] === vocal[i]) {
+			isVocal = true;
+		}
+	} if (isVocal) {
+		return word;
 	} else {
-	  return (`${word.substring(1)}${word[0]}nyo`);
+		return (`${word.substring(1)}${word[0]}nyo`);
 	}
-  }
+}
 function sentencesManipulation(sentence) {
 	let b = sentence.split(' ');
 	for (let i = 0; i < b.length; + i++) {
