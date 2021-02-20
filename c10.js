@@ -1,7 +1,7 @@
 function stringManipulation(word) {
-	let vocal = 'aiueoAIUEO';
+	let hurufVocal = 'aiueoAIUEO';
 	let a = false;
-	for (let i = 0; i < vocal.length; i++) {
+	for (let i = 0; i < hurufVocal.length; i++) {
 	  if (word[0] === vocal[i]) {
 		a = true;
 	  }
