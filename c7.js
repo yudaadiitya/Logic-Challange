@@ -1,14 +1,14 @@
 function weirdMultiply(sentence) {
-    let angka = sentence.toString();
-    if (1 < angka.length) {
+    let number = sentence.toString();
+    if (1 < number.length) {
         let a = 1;
         let i = 0;
-        while (i < angka.length) {
-        a *= angka[i];
+        while (i < number.length) {
+        a *= number[i];
         i++;
-        } return angka = weirdMultiply(a);
+        } return number = weirdMultiply(a);
     } else {
-    return Number (angka);
+    return Number (number);
     }
 }
 console.log(weirdMultiply(39));
