@@ -1,12 +1,12 @@
 function sum() {
-    var result = 0;
+    var hasil = 0;
     var i = 0;
     while (i < arguments.length){
-        result += arguments[i];
+        hasil += arguments[i];
         i++
     }
    
-    console.log(result);
+    console.log(hasil);
     }
             
 sum(1,2,7);
